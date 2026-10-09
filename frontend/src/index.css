@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'Manrope', 'Segoe UI', sans-serif;
+  color: #e9efed;
+  background: #101719;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  --bg: #101719;
+  --bg-raised: #151e21;
+  --bg-panel: #182225;
+  --bg-panel-deep: #131c1f;
+  --bg-hover: #202c30;
+  --border: #29383c;
+  --border-soft: #223034;
+  --text: #e9efed;
+  --text-secondary: #a1b0b1;
+  --text-muted: #708186;
+  --accent: #50c4c6;
+  --accent-soft: #19383a;
+  --green: #47c99b;
+  --amber: #f4b544;
+  --red: #ff6a68;
+  --violet: #9f9aea;
+  --mono: 'DM Mono', Consolas, monospace;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; min-height: 100%; background: var(--bg); }
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+button, input, select, textarea { font: inherit; }
+button { color: inherit; }
+a { color: inherit; }
+::selection { color: #071213; background: #6de0da; }
+#root { min-height: 100vh; }

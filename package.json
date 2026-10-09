@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  },
+  "scripts": {
+    "start": "concurrently \"cd backend && .venv\\Scripts\\python.exe -m uvicorn app.main:app --reload --port 8000\" \"cd frontend && npm run dev\""
+  }
+}

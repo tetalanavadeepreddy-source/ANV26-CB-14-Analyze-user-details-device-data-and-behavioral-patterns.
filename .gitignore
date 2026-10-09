@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Environment
+.env
+.env.local
+
+# Database
+*.db
+*.sqlite3
+backend/models/*.joblib
+backend/models/evaluation_metrics.json
+ml/data/synthetic_training.csv
+ml/data/investigator_feedback.csv
+
+# Node
+node_modules/
+frontend/dist/
+frontend/build/
+
+# OS
+.DS_Store
+Thumbs.db
